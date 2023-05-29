@@ -5,10 +5,10 @@
 
 | Std No. | Name | Department | E-mail | Github |
 |:-------:|:----:|:-------:|:-------:|:-------:|
-|201835417|김동준|AI·소프트웨어학부(소프트웨어전공)|rlaehdwns99@gachon.ac.kr|https://github.com/Kim-Dong-Jun99|
-|201835443|김현종|AI·소프트웨어학부(소프트웨어전공)|guswhd5738@gachon.ac.kr|https://github.com/DecisionDisorder|
-|201835474|안해빈|AI·소프트웨어학부(소프트웨어전공)|gnh06280@gachon.ac.kr|https://github.com/HaebinAHN|
-|201735863|이원재|AI·소프트웨어학부(소프트웨어전공)|dnjswo0213@gachon.ac.kr|https://github.com/Wonjae98|
+|201835417|김동준|AI·소프트웨어학부(소프트웨어전공)|rlaehdwns99@gachon.ac.kr|[Kim-Dong-Jun99](https://github.com/Kim-Dong-Jun99)|
+|201835443|김현종|AI·소프트웨어학부(소프트웨어전공)|guswhd5738@gachon.ac.kr|[DecisionDisorder](https://github.com/DecisionDisorder)|
+|201835474|안해빈|AI·소프트웨어학부(소프트웨어전공)|gnh06280@gachon.ac.kr|[HaebinAHN](https://github.com/HaebinAHN)|
+|201735863|이원재|AI·소프트웨어학부(소프트웨어전공)|dnjswo0213@gachon.ac.kr|[Wonjae98](https://github.com/Wonjae98)|
 <br/>
 
 ## Main Idea
@@ -115,6 +115,6 @@ This is is an algorithm that matches companies and individual members. When corp
 
 ## Presentation Videos
 
-[![졸업작품 1 발표영상](https://youtu.be/WrR8wYj8wAw/0.jpg)](https://youtu.be/WrR8wYj8wAw)
+[![졸업작품 1 발표영상](http://img.youtube.com/vi/WrR8wYj8wAw/0.jpg)](https://youtu.be/WrR8wYj8wAw)
 
-[![졸업작품 2 발표영상](https://youtu.be/Qnnzfzwvw4Y/0.jpg)](https://youtu.be/Qnnzfzwvw4Y)
+[![졸업작품 2 발표영상](http://img.youtube.com/vi/Qnnzfzwvw4Y/0.jpg)](https://youtu.be/Qnnzfzwvw4Y)
