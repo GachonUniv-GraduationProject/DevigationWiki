@@ -1,4 +1,4 @@
-# <b>Gachon University Graduation Project Wiki</b>
+# <b>Devigation Wiki(Gachon University Graduation Project)</b>
 <br/>
 
 ## Members' Information
