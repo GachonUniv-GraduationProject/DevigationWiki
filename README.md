@@ -26,40 +26,24 @@ AWS EC2를 사용해서 개발한 파이썬 기반의 Django 웹 애플리케이
 
 We deployed Python-based Django web applications, uWSGI, NGINX, and MySQL databases developed using AWS EC2. The Android client communicates with Django through Retrofit2 and Rest Framework, the NLP processor using the KoNLPy library using Python language, and the company-user matching system processes the data entered through socket communication, then returns it from Django, stores it in DB, and delivers information to users. In Android, MPA Android Chart was used for graph representation. The diagram explaining this can be found as follows.
 
-![overall_structure](./images/overall_structure.png)
+<p align="center">
+<img src="./images/overall_structure.png", width="600px">
+</p>
 
 다음은 사용자 설문에서 쓰이는 자연어 처리 과정이다. 문자열을 사용자에게 입력받으면, 문장별로 구분한 후에 각 문장이 어떤 분야에 대해 언급하는지와 해당 문장이 그 분야를 선호하는 내용인지 아닌지 판단한다. 이를 종합해서 사용자의 선호와 비선호 분야를 구분하여 DB에 분리해 저장한다.  
 The following is the natural language processing process used in user surveys. When a string is entered by a user, it is divided by sentence and then determined which field each sentence refers to and whether the sentence prefers the field. Collectively, the user's preference and non-preference fields are divided and stored in the DB.
 
-![nlp_structure](./images/nlp_structure.png)
+<p align="center">
+<img src="./images/nlp_structure.png", width="500px">
+</p>
 
 기업과 개인회원을 매칭해 주는 알고리즘이다. 기업 회원이 분야, 기술, 프레임워크 등을 설문하면 개인의 경험과 로드맵 진행도를 기반으로 유사한 유저들을 리스트 형태로 추천한다.  
 This is is an algorithm that matches companies and individual members. When corporate members survey fields, technologies, and frameworks, similar users are recommended in the form of lists based on individual experiences and road map progress.
 
-![company-user_matching](./images/matching_structure.png)
+<p align="center">
+<img src="./images/matching_structure.png", width="500px">
+</p>
 
-## Screenshots
-
-<img src="/images/00.시작화면.png" width="240" height="426" title="Starting Screen" alt="Starting Screen"></img>
-<img src="/images/01.회원가입_구분.png" width="240" height="426" title="Sign up" alt="Sign up"></img>
-<img src="/images/02.개인회원가입.png" width="240" height="426" title="Personal Sign up" alt="Personal Sign up"></img>
-<img src="/images/03. 개인설문조사1.png" width="240" height="426" title="Personal Survey 1" alt="Personal Survey 1"></img>
-<img src="/images/04.개인설문조사2.png" width="240" height="426" title="Personal Survey 2" alt="Personal Survey 2"></img>
-<img src="/images/05.로그인.png" width="240" height="426" title="Login" alt="Login"></img>
-<img src="/images/06.트렌드.png" width="240" height="426" title="Trends" alt="Trends"></img>
-<img src="/images/07.로드맵.png" width="240" height="426" title="Roadmap" alt="Roadmap"></img>
-<img src="/images/08.로드맵_완료처리.png" width="240" height="426" title="Roadmap complete" alt="Roadmap complete"></img>
-<img src="/images/09.로드맵_교육자료.png" width="240" height="426" title="Roadmap study" alt="Roadmap study"></img>
-<img src="/images/10.역량.png" width="240" height="426" title="Capability" alt="Capability"></img>
-<img src="/images/11.내정보.png" width="240" height="426" title="User info" alt="User info"></img>
-<img src="/images/12.선호분야.png" width="240" height="426" title="Preference field" alt="Preference field"></img>
-<img src="/images/13.비선호분야.png" width="240" height="426" title="Non-preference field" alt="Non-preference field"></img>
-<img src="/images/14.기업회원가입.png" width="240" height="426" title="Business Sign up" alt="Business Sign up"></img>
-<img src="/images/15.기업설문조사1.png" width="240" height="426" title="Business survey 1" alt="Business survey 1"></img>
-<img src="/images/16.기업설문조사2.png" width="240" height="426" title="Business survey 2" alt="Business survey 2"></img>
-<img src="/images/17.기업_추천화면.png" width="240" height="426" title="Business recommendation" alt="Business recommendation"></img>
-<img src="/images/18.기업_추천화면_확대.png" width="240" height="426" title="Business recommendation-unfold" alt="Business recommendation-unfold"></img>
-<img src="/images/19.기업_추천화면_자세히.png" width="240" height="426" title="Business recommendation-detail" alt="Business recommendation-detail"></img>  
 <br/>
 
 ### Development Tools
@@ -91,6 +75,28 @@ This is is an algorithm that matches companies and individual members. When corp
 <br/>
 
 ## Screenshots
+
+<img src="/images/00.시작화면.png" width="240" height="426" title="Starting Screen" alt="Starting Screen"></img>
+<img src="/images/01.회원가입_구분.png" width="240" height="426" title="Sign up" alt="Sign up"></img>
+<img src="/images/02.개인회원가입.png" width="240" height="426" title="Personal Sign up" alt="Personal Sign up"></img>
+<img src="/images/03. 개인설문조사1.png" width="240" height="426" title="Personal Survey 1" alt="Personal Survey 1"></img>
+<img src="/images/04.개인설문조사2.png" width="240" height="426" title="Personal Survey 2" alt="Personal Survey 2"></img>
+<img src="/images/05.로그인.png" width="240" height="426" title="Login" alt="Login"></img>
+<img src="/images/06.트렌드.png" width="240" height="426" title="Trends" alt="Trends"></img>
+<img src="/images/07.로드맵.png" width="240" height="426" title="Roadmap" alt="Roadmap"></img>
+<img src="/images/08.로드맵_완료처리.png" width="240" height="426" title="Roadmap complete" alt="Roadmap complete"></img>
+<img src="/images/09.로드맵_교육자료.png" width="240" height="426" title="Roadmap study" alt="Roadmap study"></img>
+<img src="/images/10.역량.png" width="240" height="426" title="Capability" alt="Capability"></img>
+<img src="/images/11.내정보.png" width="240" height="426" title="User info" alt="User info"></img>
+<img src="/images/12.선호분야.png" width="240" height="426" title="Preference field" alt="Preference field"></img>
+<img src="/images/13.비선호분야.png" width="240" height="426" title="Non-preference field" alt="Non-preference field"></img>
+<img src="/images/14.기업회원가입.png" width="240" height="426" title="Business Sign up" alt="Business Sign up"></img>
+<img src="/images/15.기업설문조사1.png" width="240" height="426" title="Business survey 1" alt="Business survey 1"></img>
+<img src="/images/16.기업설문조사2.png" width="240" height="426" title="Business survey 2" alt="Business survey 2"></img>
+<img src="/images/17.기업_추천화면.png" width="240" height="426" title="Business recommendation" alt="Business recommendation"></img>
+<img src="/images/18.기업_추천화면_확대.png" width="240" height="426" title="Business recommendation-unfold" alt="Business recommendation-unfold"></img>
+<img src="/images/19.기업_추천화면_자세히.png" width="240" height="426" title="Business recommendation-detail" alt="Business recommendation-detail"></img>  
+<br/>
 
 <br/>
 
