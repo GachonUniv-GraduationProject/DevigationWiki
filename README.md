@@ -115,6 +115,8 @@ This is is an algorithm that matches companies and individual members. When corp
 
 ## Presentation Videos
 
+졸업작품1 발표영상<br/>
 [![졸업작품 1 발표영상](http://img.youtube.com/vi/WrR8wYj8wAw/0.jpg)](https://youtu.be/WrR8wYj8wAw)
 
+졸업작품2 발표영상<br/>
 [![졸업작품 2 발표영상](http://img.youtube.com/vi/Qnnzfzwvw4Y/0.jpg)](https://youtu.be/Qnnzfzwvw4Y)
