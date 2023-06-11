@@ -120,3 +120,6 @@ This is is an algorithm that matches companies and individual members. When corp
 
 졸업작품2 발표영상<br/>
 [![졸업작품 2 발표영상](http://img.youtube.com/vi/Qnnzfzwvw4Y/0.jpg)](https://youtu.be/Qnnzfzwvw4Y)
+
+졸업작품3 발표영상<br/>
+[![졸업작품 3 발표영상](http://img.youtube.com/vi/knPFA9Xo1Ds/0.jpg)](https://youtu.be/knPFA9Xo1Ds)
